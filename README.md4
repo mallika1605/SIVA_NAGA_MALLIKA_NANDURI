@@ -1,0 +1,33 @@
+# Problem 4 – Count of Numbers Divisible by 1 to 9
+
+## Description
+This program counts how many numbers in a given list are divisible by each number from 1 to 9.
+The result is displayed in the form of a dictionary where:
+- Key   → Number from 1 to 9
+- Value → Count of numbers divisible by that key
+
+## Input
+- A predefined list of integers
+
+Example list:
+[1,2,8,9,12,46,76,82,15,20,30]
+## Output
+- A dictionary showing the count of divisible numbers for each value from 1 to 9
+
+## Programming Language
+Python
+
+## Logic
+- Iterate from 1 to 9
+- For each number, check divisibility of all elements in the list
+- Increment count when divisible
+- Store the result in a dictionary
+
+## How to Run
+1. Open `Problem-4.py` in any Python IDE
+2. Run the program
+3. The output dictionary will be displayed on the screen
+
+## Example Output
+```python
+{1: 11, 2: 7, 3: 4, 4: 2, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1}
