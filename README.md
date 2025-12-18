@@ -1,34 +1,30 @@
-**Problem 1 – Calculator using Class**
+**Problem 2 – Odd Number Series**
 **Description**
-This program implements a simple calculator using a Python class.
-It performs the following operations based on user input:
-- Addition
-- Subtraction
-- Multiplication
-- Division
-**Inputs**
-- a : double (float)
-- b : double (float)
-- type of operation : string (add / sub / mul / div)
+This program generates a series of odd numbers based on a single integer input.
+The number of odd values printed depends on the input value.
+For a given input `a`, the program prints the first `a` odd numbers starting from 1.
+**Input**
+- a : integer
 **Output**
-- Displays the result of the selected arithmetic operation.
-** Programming Language**
+- Displays a series of odd numbers starting from 1.
+**Programming Language**
 Python
-**Concepts Used**
-- Class and Object
-- Conditional Statements
-- User Input
-- Functions
+**Logic**
+- Start from the first odd number (1)
+- Print odd numbers by increasing the value by 2
+- Repeat the process until `a` numbers are printed
 **How to Run**
-1. Open Problem-1.py in any Python IDE
+1. Open `Problem-2.py` in any Python IDE
 2. Run the program
-3. Enter values for a, b and operation type
-4. Output will be displayed on the screen
+3. Enter an integer value for `a`
+4. The odd number series will be displayed
 **Example**
 Input:
-a = 10  
-b = 5  
-operation = add  
+a = 4  
 
 Output:
-15
+1 3 5 7
+**Concepts Used**
+- While Loop
+- User Input
+- Integer Operations
